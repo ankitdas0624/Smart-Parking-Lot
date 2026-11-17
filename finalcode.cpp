@@ -701,7 +701,7 @@ void showMenu(const ParkingLot& lot) {
     printMenuItem(4, "Show Driver Details");
     printMenuItem(5, "Show All Parking Spaces");
     printMenuItem(6, "Demonstrate Vehicle Polymorphism");
-    printMenuItem(7, "Show Parking Report");
+    printMenuItem(7, "Show Parking Report of this parking lot");
     printMenuItem(8, "Demonstrate Exception Handling");
     printMenuItem(9, "Demonstrate Multithreading");
     printBorder('-');
@@ -834,7 +834,7 @@ int main() {
                     throw InvalidInputException("vehicle type must be 1 or 2.");
                 }
 
-                readInput("Enter vehicle number: ", number);
+                readInput("Enter vehicle number : ", number);
 
                 if (vehicleChoice == 1) {
                     Car car(number);
