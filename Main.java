@@ -349,7 +349,7 @@ public class Main {
                         break;
 
                     case 5:
-                        System.out.println("Goodbye!");
+                        System.out.println("Thank you for using Parking management system!");
                         break;
 
                     default:
